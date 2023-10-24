@@ -1,0 +1,204 @@
+{
+    "fotos" : [
+        {
+            "id" : 1,
+           "path" :  "path"
+        },
+        {
+            "id" : 2,
+            "path" :  "path"
+        },
+        {
+            "id" : 3,
+            "path" :  "path"
+        },
+        {
+            "id" : 4,
+            "path" :  "path"
+        },
+        {
+            "id" : 5,
+            "path" :  "path"
+        },
+        {
+            "id" : 6,
+            "path" :  "path"
+        },
+        {
+            "id" : 7,
+            "path" :  "path"
+        }
+    ],
+    "pasosConsulta" : [
+        {
+            "id" : 1,
+            "title" : "Recomendaciones previas a la consulta",
+            "text" : "texto... html actually"
+        },
+        {
+            "id" : 2,
+            "title" : "En la consulta",
+            "text" : "texto... html actually"
+        },
+        {
+            "id" : 3,
+            "title" : "Luego de la consulta",
+            "text" : "texto... html actually"
+        }
+    ],
+    "servicios" : [
+        {
+            "id" : 1,
+            "title" : "Consulta presencial",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 2,
+            "title" : "Consulta virtual",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 3,
+            "title" : "Peeling",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 4,
+            "title" : "Punta de diamante",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 5,
+            "title" : "Plasma rico en plaquetas",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 6,
+            "title" : "Dermapen",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 7,
+            "title" : "Mesoterapia capilar",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 8,
+            "title" : "Botox",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        },
+        {
+            "id" : 9,
+            "title" : "Electrocoagulación",
+            "text" : "texto... html actually",
+            "img" : "path a la imagen"
+        }
+    ],
+    "posts" : [
+        {
+            "id" : 1,
+            "title" : "Rutina básica",
+            "img" : "path a la imagen",
+            "text" : "texto... html actually",
+            "servicios" : [
+                {
+                    "id" : 1,
+                    "title" : "Consulta presencial"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Consulta virtual"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "title" : "Relación saludable con el Sol",
+            "img" : "path a la imagen",
+            "text" : "texto... html actually",
+            "servicios" : [
+                {
+                    "id" : 1,
+                    "title" : "Consulta presencial"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Consulta virtual"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "title" : "Acné",
+            "img" : "path a la imagen",
+            "text" : "texto... html actually",
+            "servicios" : [
+                {
+                    "id" : 1,
+                    "title" : "Consulta presencial"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Consulta virtual"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "title" : "Rosácea",
+            "img" : "path a la imagen",
+            "text" : "texto... html actually",
+            "servicios" : [
+                {
+                    "id" : 1,
+                    "title" : "Consulta presencial"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Consulta virtual"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "title" : "Caída de pelo",
+            "img" : "path a la imagen",
+            "text" : "texto... html actually",
+            "servicios" : [
+                {
+                    "id" : 1,
+                    "title" : "Consulta presencial"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Consulta virtual"
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "title" : "Control de lunares",
+            "img" : "path a la imagen",
+            "text" : "texto... html actually",
+            "servicios" : [
+                {
+                    "id" : 1,
+                    "title" : "Consulta presencial"
+                },
+                {
+                    "id" : 2,
+                    "title" : "Consulta virtual"
+                }
+            ]
+        }
+    ]
+    
+}
