@@ -1,0 +1,156 @@
+.PostPage{
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+}
+
+.VolverCont{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(36px);
+    position: absolute; /* Permite que el div se mueva con el scroll */
+    top: 13%;
+    left: 11%;
+
+}
+
+.VolverSVG{
+    width: 20px;
+    height: 20px;
+}
+
+.VolverText{
+    color: var(--Rosa-AA-con-blanco, #D77577);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+.PPCont{
+    display: flex;
+    width: 704px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+
+}
+
+.PPImgTextCont{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.PPImg{
+    width: 256px;
+    align-self: stretch;
+    border-radius: 20px;
+}
+
+.PPTextCont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.PPTitle{
+    width: 415px;
+
+    color: var(--Rosa-AA-con-blanco, #D77577);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.PPText{
+    width: 319px;
+
+    color: var(--gris-claro-aaa-sobre-blanco, #595959);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: pre-wrap;
+}
+
+.PPServiciosCont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.PPServiciosCont2{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0px 8px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.PPSTitle{
+    color: var(--Rosa-AA-con-blanco, #D77577);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.PPSText{
+    color: var(--gris-claro-aaa-sobre-blanco, #595959);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.FondoOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.PrevPost{
+    position: absolute;
+    width: 24.889px;
+    height: 48px;
+    flex-shrink: 0;
+    top: 48%;
+    left: 11%;
+}
+
+.NextPost{
+    position: absolute;
+    width: 24.889px;
+    height: 48px;
+    flex-shrink: 0;
+    top: 48%;
+    left: 87%;
+}

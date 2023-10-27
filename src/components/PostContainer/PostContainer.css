@@ -1,0 +1,34 @@
+.PostContainer{
+    display: flex;
+    width: 1440px;
+    padding: 160px 160px 32px 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.PContCentrado{
+    display: flex;
+    width: 1120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.Title{
+    width: 858px;
+    color: var(--gris-claro-aaa-sobre-blanco, #595959);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.PContainerCards{
+    display: flex;
+    width: 1120px;
+    align-items: flex-start;
+    gap: 32px;
+    overflow-x: auto;
+}

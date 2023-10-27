@@ -50,152 +50,212 @@
         {
             "id" : 1,
             "title" : "Consulta presencial",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
+            "img" : "/src/assets/SO1.jpeg"
         },
         {
             "id" : 2,
             "title" : "Consulta virtual",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Ideal para realizar una consulta de seguimiento o si estás lejos. Si bien esta modalidad es muy útil, tiene ciertas limitaciones a la hora de realizar la consulta.",
+            "img" : "/src/assets/SO2.jpeg"
         },
         {
             "id" : 3,
             "title" : "Peeling",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "A través de distintos ácidos, es posible tratar manchas, cicatrices, lesiones de acné, rosácea, arrugas finas y estimular la producción de colágeno y elastina.",
+            "img" : "/src/assets/SO3.jpeg"
         },
         {
             "id" : 4,
             "title" : "Punta de diamante",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Se trata de una herramienta de exfoliación suave, indolora, que funciona muy bien como paso previo al peeling ya que elimina la última capa de la piel ”las células muertas”.",
+            "img" : "/src/assets/SO4.jpeg"
         },
         {
             "id" : 5,
             "title" : "Plasma rico en plaquetas",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Se obtiene plasma al centrifugar la sangre con el objetivo de estimular factores de crecimiento para síntesis de colágeno y la regeneración capilar. Se puede utilizar a nivel facial y en cuero cabelludo.",
+            "img" : "/src/assets/SO5.png"
         },
         {
             "id" : 6,
             "title" : "Dermapen",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "A través de pequeñas agujas se estimula la producción de colágeno que genera una mejoría en la textura de la piel. También se utiliza en combinación con distintos productos ya que potencia su acción (plasma rico en plaquetas, ácido hialurónico, vitamina C).",
+            "img" : "/src/assets/SO6.jpeg"
         },
         {
             "id" : 7,
             "title" : "Mesoterapia capilar",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Procedimiento donde se realizan microinyecciones capilar con diferentes activos para estimular el crecimiento del pelo.",
+            "img" : "/src/assets/SO7.png"
         },
         {
             "id" : 8,
             "title" : "Botox",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Se utiliza toxina botulínica para relajar, en forma temporal, los músculos que producen arrugas en la zona de la frente, entrecejo y alrededor de los ojos.",
+            "img" : "/src/assets/SO8.png"
         },
         {
             "id" : 9,
             "title" : "Electrocoagulación",
-            "text" : "texto... html actually",
-            "img" : "path a la imagen"
+            "text" : "Se destruyen con calor distintas lesiones benignas que pueden aparecer en la piel, como queratosis seborreicas o acrocordones -mal llamadas “verruguitas”-.",
+            "img" : "/src/assets/SO9.png"
         }
     ],
     "posts" : [
         {
             "id" : 1,
             "title" : "Rutina básica",
-            "img" : "path a la imagen",
-            "text" : "texto... html actually",
+            "img" : "/src/assets/post1.jpeg",
+            "text" : "La piel tiene muchas funciones, entre ellas, ser una barrera cutánea. Para cuidarla, es fundamental comenzar por una rutina básica. Esto incluye una limpieza (acá dependerá si es sensible, una espuma o leche de limpieza, y si tiene tendencia a ser grasa, un gel). Luego, colocar una crema hidratante. Los activos van a depender del tipo de piel en general, el ácido hialurónico es una buena opción. Realizar esto pasos a la mañana y a la noche, acompañando con un protector solar durante el día es una excelente forma de comenzar con tu rutina.",
             "servicios" : [
                 {
                     "id" : 1,
-                    "title" : "Consulta presencial"
+                    "title" : "Consulta presencial",
+                    "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
+                    "img" : "/src/assets/SO1.jpeg"
                 },
                 {
                     "id" : 2,
-                    "title" : "Consulta virtual"
+                    "title" : "Consulta virtual",
+                    "text" : "Ideal para realizar una consulta de seguimiento o si estás lejos. Si bien esta modalidad es muy útil, tiene ciertas limitaciones a la hora de realizar la consulta.",
+                    "img" : "/src/assets/SO2.jpeg"
+                },
+                {
+                    "id" : 3,
+                    "title" : "Peeling",
+                    "text" : "A través de distintos ácidos, es posible tratar manchas, cicatrices, lesiones de acné, rosácea, arrugas finas y estimular la producción de colágeno y elastina.",
+                    "img" : "/src/assets/SO3.jpeg"
+                },
+                {
+                    "id" : 4,
+                    "title" : "Punta de diamante",
+                    "text" : "Se trata de una herramienta de exfoliación suave, indolora, que funciona muy bien como paso previo al peeling ya que elimina la última capa de la piel ”las células muertas”.",
+                    "img" : "/src/assets/SO4.jpeg"
                 }
             ]
         },
         {
             "id" : 2,
             "title" : "Relación saludable con el Sol",
-            "img" : "path a la imagen",
-            "text" : "texto... html actually",
+            "img" : "/src/assets/post2.jpeg",
+            "text" : "El sol es fundamental para el bienestar de las personas. Por eso, tenemos que aprender a relacionarnos de forma saludable y consciente. ¿Y por qué es importante incorporar estos hábitos? Ya que el daño solar es acumulativo e irreversible y puede llevar al cáncer de piel, además de empeorar la calidad de la piel al predisponer a arrugas tempranas y manchas. \n \nRecomendaciones: utilizar protector solar de amplio espectro (UVA y UVB) mayor a 30 y renovar cada 2 horas. Esto solo no es suficiente, lo ideal es utilizar sombreros, anteojos (ideal con filtro UV) y remeras manga larga o UV. Si la sombra es más corta que tu altura, es importante buscar refugio del sol. Lo ideal es evitar el sol de 10 a 16 horas.",
             "servicios" : [
                 {
                     "id" : 1,
-                    "title" : "Consulta presencial"
-                },
-                {
-                    "id" : 2,
-                    "title" : "Consulta virtual"
+                    "title" : "Consulta presencial",
+                    "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
+                    "img" : "/src/assets/SO1.jpeg"
                 }
             ]
         },
         {
             "id" : 3,
             "title" : "Acné",
-            "img" : "path a la imagen",
-            "text" : "texto... html actually",
+            "img" : "/src/assets/post3.jpeg",
+            "text" : "El acné es un desorden inflamatorio de la piel, específicamente de la glándula sebácea y del folículo piloso. Hay muchos factores que intervienen, si bien la genética tiene un rol importante, el estilo de vida (y los factores hormonales) es fundamental. Existen diferentes tipos de pieles con acné y no todos los granitos son acné. El tratamiento temprano (y no explotar los granitos) es primordial para evitar marcas y cicatrices. ",
             "servicios" : [
                 {
                     "id" : 1,
-                    "title" : "Consulta presencial"
+                    "title" : "Consulta presencial",
+                    "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
+                    "img" : "/src/assets/SO1.jpeg"
                 },
                 {
                     "id" : 2,
-                    "title" : "Consulta virtual"
+                    "title" : "Consulta virtual",
+                    "text" : "Ideal para realizar una consulta de seguimiento o si estás lejos. Si bien esta modalidad es muy útil, tiene ciertas limitaciones a la hora de realizar la consulta.",
+                    "img" : "/src/assets/SO2.jpeg"
+                },
+                {
+                    "id" : 3,
+                    "title" : "Peeling",
+                    "text" : "A través de distintos ácidos, es posible tratar manchas, cicatrices, lesiones de acné, rosácea, arrugas finas y estimular la producción de colágeno y elastina.",
+                    "img" : "/src/assets/SO3.jpeg"
+                },
+                {
+                    "id" : 5,
+                    "title" : "Plasma rico en plaquetas",
+                    "text" : "Se obtiene plasma al centrifugar la sangre con el objetivo de estimular factores de crecimiento para síntesis de colágeno y la regeneración capilar. Se puede utilizar a nivel facial y en cuero cabelludo.",
+                    "img" : "/src/assets/SO5.png"
+                },
+                {
+                    "id" : 6,
+                    "title" : "Dermapen",
+                    "text" : "A través de pequeñas agujas se estimula la producción de colágeno que genera una mejoría en la textura de la piel. También se utiliza en combinación con distintos productos ya que potencia su acción (plasma rico en plaquetas, ácido hialurónico, vitamina C).",
+                    "img" : "/src/assets/SO6.jpeg"
                 }
             ]
         },
         {
             "id" : 4,
             "title" : "Rosácea",
-            "img" : "path a la imagen",
-            "text" : "texto... html actually",
+            "img" : "/src/assets/post4.jpeg",
+            "text" : "Es una afectación inflamatoria crónica de la piel donde se puede ver en forma (casi) constante el centro de la cara colorado que empeora ante el calor, el frío, el ejercicio, el sol, el estrés, comidas picantes, el alcohol y el cigarrillo. La rosácea se acompaña de una piel sensible donde la barrera cutánea está alterada, es fundamental además del tratamiento médico, utilizar pocos productos y de buena calidad.",
             "servicios" : [
                 {
                     "id" : 1,
-                    "title" : "Consulta presencial"
+                    "title" : "Consulta presencial",
+                    "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
+                    "img" : "/src/assets/SO1.jpeg"
                 },
                 {
                     "id" : 2,
-                    "title" : "Consulta virtual"
+                    "title" : "Consulta virtual",
+                    "text" : "Ideal para realizar una consulta de seguimiento o si estás lejos. Si bien esta modalidad es muy útil, tiene ciertas limitaciones a la hora de realizar la consulta.",
+                    "img" : "/src/assets/SO2.jpeg"
+                },
+                {
+                    "id" : 3,
+                    "title" : "Peeling",
+                    "text" : "A través de distintos ácidos, es posible tratar manchas, cicatrices, lesiones de acné, rosácea, arrugas finas y estimular la producción de colágeno y elastina.",
+                    "img" : "/src/assets/SO3.jpeg"
+                },
+                {
+                    "id" : 5,
+                    "title" : "Plasma rico en plaquetas",
+                    "text" : "Se obtiene plasma al centrifugar la sangre con el objetivo de estimular factores de crecimiento para síntesis de colágeno y la regeneración capilar. Se puede utilizar a nivel facial y en cuero cabelludo.",
+                    "img" : "/src/assets/SO5.png"
+                },
+                {
+                    "id" : 6,
+                    "title" : "Dermapen",
+                    "text" : "A través de pequeñas agujas se estimula la producción de colágeno que genera una mejoría en la textura de la piel. También se utiliza en combinación con distintos productos ya que potencia su acción (plasma rico en plaquetas, ácido hialurónico, vitamina C).",
+                    "img" : "/src/assets/SO6.jpeg"
                 }
             ]
         },
         {
             "id" : 5,
             "title" : "Caída de pelo",
-            "img" : "path a la imagen",
-            "text" : "texto... html actually",
+            "img" : "/src/assets/post5.jpeg",
+            "text" : "El pelo tiene un ciclo donde pasa por tres fases: una donde crece, otra donde está en reposo y otra donde se cae. Cuando se alteran algunas de estas fases, se cae en una cantidad mayor a la habitual (que es 50 a 100 pelos por día). Hay muchas causas de caída de pelo y es esencial la consulta para determinarla y así, elegir el tratamiento adecuado.",
             "servicios" : [
                 {
-                    "id" : 1,
-                    "title" : "Consulta presencial"
+                    "id" : 5,
+                    "title" : "Plasma rico en plaquetas",
+                    "text" : "Se obtiene plasma al centrifugar la sangre con el objetivo de estimular factores de crecimiento para síntesis de colágeno y la regeneración capilar. Se puede utilizar a nivel facial y en cuero cabelludo.",
+                    "img" : "/src/assets/SO5.png"
                 },
                 {
-                    "id" : 2,
-                    "title" : "Consulta virtual"
+                    "id" : 7,
+                    "title" : "Mesoterapia capilar",
+                    "text" : "Procedimiento donde se realizan microinyecciones capilar con diferentes activos para estimular el crecimiento del pelo.",
+                    "img" : "/src/assets/SO7.png"
                 }
             ]
         },
         {
             "id" : 6,
             "title" : "Control de lunares",
-            "img" : "path a la imagen",
-            "text" : "texto... html actually",
+            "img" : "/src/assets/post6.png",
+            "text" : "Además de la recomendación del chequeo anual de lunares, cualquier lesión nueva que aparezca en forma espontánea en la piel, amerita consulta. Ahora, ¿Cómo saber si un lunar nos debe preocupar? Gracias a la regla del ABCDE: \nAsimétrico: si al dividirlo a la mitad, una es diferente de otra.\nBordes irregulares o poco definidos.\nColores distintos en un mismo lunar.\nDiámetro mayor a 6 mm.\nEvolución distinta de los otros lunares, aumento de forma, tamaño o color.",
             "servicios" : [
                 {
                     "id" : 1,
-                    "title" : "Consulta presencial"
-                },
-                {
-                    "id" : 2,
-                    "title" : "Consulta virtual"
+                    "title" : "Consulta presencial",
+                    "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
+                    "img" : "/src/assets/SO1.jpeg"
                 }
             ]
         }

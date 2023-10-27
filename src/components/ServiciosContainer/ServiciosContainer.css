@@ -1,0 +1,49 @@
+.ServiciosContainer{
+    display: flex;
+    width: 1440px;
+    padding: 160px 160px 32px 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFF;
+}
+
+.ContCentrado{
+    display: flex;
+    width: 1120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.Title{
+    width: 858px;
+    color: var(--gris-claro-aaa-sobre-blanco, #595959);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ContainerCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 32px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.FondoOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
