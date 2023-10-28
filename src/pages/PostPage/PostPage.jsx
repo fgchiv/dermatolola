@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './PostPage.css'
 import ServiciosOverlay from '../../components/ServiciosOverlay/ServiciosOverlay'
 import { useParams } from 'react-router-dom'
@@ -9,20 +9,26 @@ const PostPage = (data) => {
   id = parseInt(id) - 1
   const [showOverlay, setShowOverlay] = useState(false)
   const [SOdata, setSOdata] = useState({})
-  const [Pid, setPid] = useState(id)
-  const [post, setPost] = useState(data.data[Pid])
+  const [post, setPost] = useState(data.data[id])
+  useEffect(() => {
+    setPost(data.data[id])
+  }, [id])
+
   
   const clickOnServicio = (servicio) => {
       setShowOverlay(!showOverlay)
       console.log("OVERLAY", servicio)
       setSOdata(servicio)
   }
-/* 
-  const prevPost = () => {
-    setPid( (Pid - 1) % 6)
-    setPost(data.data[Pid])
+  let next = ((id + 1) % 6)+1
+  let prev
+  if (id === 0) {
+    prev = 6
+  } else {
+    prev = id
   }
-   */
+
+
   return (
     <div className='PostPage'>
       <Link to={'/'} >
@@ -38,8 +44,7 @@ const PostPage = (data) => {
       </Link>
       <div className='PPCont' >
         <div className='PPImgTextCont' >
-          <div className='PPImg' style={{ background: `url(${post.img}), lightgray 50%`,
-            backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+          <div className='PPImg' style={{background: `url(${post.img}) center / cover, lightgray 50% `}} ></div>
           <div className='PPTextCont' >
             <div className='PPTitle' > {post.title} </div>
             <div className='PPText' > { post.text } </div>
@@ -65,7 +70,7 @@ const PostPage = (data) => {
           </div>
         </div>
       </div>
-      <Link >
+      <Link to={ `/post/${prev}` }>
         <div className='PrevPost' >
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="48" viewBox="0 0 26 48" fill="none">
             <g clip-path="url(#clip0_1725_846)">
@@ -79,7 +84,7 @@ const PostPage = (data) => {
           </svg>
         </div>
       </Link>
-      <Link>
+      <Link to={ `/post/${next}` }>
         <div className='NextPost' >
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="48" viewBox="0 0 25 48" fill="none">
             <g clip-path="url(#clip0_1725_848)">
