@@ -33,26 +33,24 @@ const PDRutina = (data) => {
   const post = data.data;
   return (
     <div className="PPCont" style={{ width: "640px" }}>
-      <div className="PPImgTextCont">
+      <div className="PPImgTextCont" style={{ gap: "64px" }}>
         <div
           className="PPImg"
           style={{
-            background: `url(${post.img}) center / cover, lightgray 50% `,
             width: "256px",
+            background: `url(${post.img}) center / cover, lightgray 50% `,
           }}
         ></div>
         <div className="PPTextCont">
           <div className="PPTitle">{post.title} </div>
           <div className="PPText" style={{ width: "319px" }}>
-            La piel tiene muchas funciones, entre ellas, ser una <span className="PPTextRColor" >barrera
-            cutánea</span>. Para cuidarla, es fundamental comenzar por una <span className="PPTextRColor" >rutina
-            básica</span>. Esto incluye una limpieza (acá dependerá si es sensible, una
-            espuma o leche de limpieza, y si tiene tendencia a ser grasa, un
-            gel). Luego, colocar una crema hidratante. Los activos van a
-            depender del tipo de piel en general, el ácido hialurónico es una
-            buena opción. Realizar esto pasos a la mañana y a la noche,
-            acompañando con un <span className="PPTextRColor" >protector solar</span> durante el día es una excelente
-            forma de comenzar con tu rutina.
+            Es una afectación inflamatoria crónica de la piel donde se puede ver
+            en forma (casi) constante el centro de la cara <span className="PPTextRColor" >colorado</span> que empeora
+            ante el calor, el frío, el ejercicio, el sol, el estrés, comidas
+            picantes, el alcohol y el cigarrillo. La rosácea se acompaña de una
+            <span className="PPTextRColor" > piel sensible</span> donde la barrera cutánea está alterada, es fundamental
+            además del tratamiento médico, utilizar pocos productos y de buena
+            calidad.
           </div>
         </div>
       </div>

@@ -33,26 +33,24 @@ const PDRutina = (data) => {
   const post = data.data;
   return (
     <div className="PPCont" style={{ width: "640px" }}>
-      <div className="PPImgTextCont">
+      <div className="PPImgTextCont" style={{ gap: "64px" }}>
         <div
           className="PPImg"
           style={{
-            background: `url(${post.img}) center / cover, lightgray 50% `,
             width: "256px",
+            height: "356px",
+            background: `url(${post.img}) center / cover, lightgray 50% `,
           }}
         ></div>
         <div className="PPTextCont">
           <div className="PPTitle">{post.title} </div>
           <div className="PPText" style={{ width: "319px" }}>
-            La piel tiene muchas funciones, entre ellas, ser una <span className="PPTextRColor" >barrera
-            cutánea</span>. Para cuidarla, es fundamental comenzar por una <span className="PPTextRColor" >rutina
-            básica</span>. Esto incluye una limpieza (acá dependerá si es sensible, una
-            espuma o leche de limpieza, y si tiene tendencia a ser grasa, un
-            gel). Luego, colocar una crema hidratante. Los activos van a
-            depender del tipo de piel en general, el ácido hialurónico es una
-            buena opción. Realizar esto pasos a la mañana y a la noche,
-            acompañando con un <span className="PPTextRColor" >protector solar</span> durante el día es una excelente
-            forma de comenzar con tu rutina.
+            El pelo tiene un <span className="PPTextRColor" >ciclo</span> donde pasa por tres fases: una donde crece,
+            otra donde está en reposo y otra donde se cae. Cuando se alteran
+            algunas de estas fases, se cae en una cantidad mayor a la habitual
+            (que es 50 a 100 pelos por día). Hay <span className="PPTextRColor" >muchas causas</span> de caída de pelo
+            y es esencial la consulta para determinarla y así, elegir el
+            tratamiento adecuado.
           </div>
         </div>
       </div>

@@ -33,26 +33,24 @@ const PDRutina = (data) => {
   const post = data.data;
   return (
     <div className="PPCont" style={{ width: "640px" }}>
-      <div className="PPImgTextCont">
+      <div className="PPImgTextCont" style={{ gap: "64px" }}>
         <div
           className="PPImg"
           style={{
-            background: `url(${post.img}) center / cover, lightgray 50% `,
             width: "256px",
+            background: `url(${post.img}) -146.817px 0px / 206.27% 100%, lightgray 50% `,
           }}
         ></div>
         <div className="PPTextCont">
           <div className="PPTitle">{post.title} </div>
           <div className="PPText" style={{ width: "319px" }}>
-            La piel tiene muchas funciones, entre ellas, ser una <span className="PPTextRColor" >barrera
-            cutánea</span>. Para cuidarla, es fundamental comenzar por una <span className="PPTextRColor" >rutina
-            básica</span>. Esto incluye una limpieza (acá dependerá si es sensible, una
-            espuma o leche de limpieza, y si tiene tendencia a ser grasa, un
-            gel). Luego, colocar una crema hidratante. Los activos van a
-            depender del tipo de piel en general, el ácido hialurónico es una
-            buena opción. Realizar esto pasos a la mañana y a la noche,
-            acompañando con un <span className="PPTextRColor" >protector solar</span> durante el día es una excelente
-            forma de comenzar con tu rutina.
+            Además de la recomendación del <span className="PPTextRColor" >chequeo anual</span> de lunares, cualquier
+            lesión nueva que aparezca en forma espontánea en la piel, amerita
+            consulta. Ahora, ¿Cómo saber si un lunar nos debe preocupar? Gracias
+            a la regla del ABCDE: <br /><span className="PPTextRColor" >A</span>simétrico: si al dividirlo a la mitad, una es
+            diferente de otra. <br /><span className="PPTextRColor" >B</span>ordes irregulares o poco definidos. <br /><span className="PPTextRColor" >C</span>olores
+            distintos en un mismo lunar. <br /><span className="PPTextRColor" >D</span>iámetro mayor a 6 mm. <br /><span className="PPTextRColor" >E</span>volución
+            distinta de los otros lunares, aumento de forma, tamaño o color.
           </div>
         </div>
       </div>

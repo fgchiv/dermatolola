@@ -33,26 +33,24 @@ const PDRutina = (data) => {
   const post = data.data;
   return (
     <div className="PPCont" style={{ width: "640px" }}>
-      <div className="PPImgTextCont">
+      <div className="PPImgTextCont" style={{ gap: '64px'}}>
         <div
           className="PPImg"
           style={{
-            background: `url(${post.img}) center / cover, lightgray 50% `,
             width: "256px",
+            background: `url(${post.img}) center / cover, lightgray 50% `,
           }}
         ></div>
-        <div className="PPTextCont">
+        <div className="PPTextCont" >
           <div className="PPTitle">{post.title} </div>
           <div className="PPText" style={{ width: "319px" }}>
-            La piel tiene muchas funciones, entre ellas, ser una <span className="PPTextRColor" >barrera
-            cutánea</span>. Para cuidarla, es fundamental comenzar por una <span className="PPTextRColor" >rutina
-            básica</span>. Esto incluye una limpieza (acá dependerá si es sensible, una
-            espuma o leche de limpieza, y si tiene tendencia a ser grasa, un
-            gel). Luego, colocar una crema hidratante. Los activos van a
-            depender del tipo de piel en general, el ácido hialurónico es una
-            buena opción. Realizar esto pasos a la mañana y a la noche,
-            acompañando con un <span className="PPTextRColor" >protector solar</span> durante el día es una excelente
-            forma de comenzar con tu rutina.
+            El acné es un desorden inflamatorio de la piel, específicamente de
+            la glándula sebácea y del folículo piloso. Hay muchos factores que
+            intervienen, si bien la <span className="PPTextRColor" >genética</span> tiene un rol importante, el <span className="PPTextRColor" >estilo
+            de vida</span> (y los factores hormonales) es fundamental. Existen
+            diferentes tipos de pieles con acné y no todos los granitos son
+            acné. El <span className="PPTextRColor" >tratamiento temprano</span> (y no explotar los granitos) es
+            primordial para evitar marcas y cicatrices.
           </div>
         </div>
       </div>

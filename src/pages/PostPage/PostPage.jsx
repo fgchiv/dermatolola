@@ -1,44 +1,28 @@
 import React, { useState, useEffect } from "react";
 import "./PostPage.css";
-import ServiciosOverlay from "../../components/ServiciosOverlay/ServiciosOverlay";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import PD1 from '../../components/PostDetail/PD1'
+import PD2 from '../../components/PostDetail/PD2'
+import PD3 from '../../components/PostDetail/PD3'
+import PD4 from '../../components/PostDetail/PD4'
+import PD5 from '../../components/PostDetail/PD5'
+import PD6 from '../../components/PostDetail/PD6'
+
 
 const PostPage = (data) => {
   let { id } = useParams();
   id = parseInt(id) - 1;
-  const [showOverlay, setShowOverlay] = useState(false);
-  const [SOdata, setSOdata] = useState({});
+
   const [post, setPost] = useState(data.data[id]);
-  const [dissolveOverlay, setDissolveOverlay] = useState(false);
+
 
   useEffect(() => {
     setPost(data.data[id]);
   }, [id]);
 
-  const clickOnServicio = (servicio) => {
-    setShowOverlay(true);
-    console.log("OVERLAY", servicio);
-    setSOdata(servicio);
-  };
 
-  const clickOnFondo = (e) => {
-    if (e.target === e.currentTarget) {
-      setShowOverlay(false);
-      setSOdata({});
-    }
-  };
-
-  const clickCerrar = () => {
-    setDissolveOverlay(true)
-    setTimeout(() => {
-        setShowOverlay(false);
-        setSOdata({});
-        setDissolveOverlay(false);
-    }, 800)
-};
 
   let next = ((id + 1) % 6) + 1;
   let prev;
@@ -85,8 +69,14 @@ const PostPage = (data) => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         key={post.id}
       >
+        { (post.id == 1) && (<PD1 data={post} ></PD1>) }
+        { (post.id == 2) && (<PD2 data={post} ></PD2>) }
+        { (post.id == 3) && (<PD3 data={post} ></PD3>) }
+        { (post.id == 4) && (<PD4 data={post} ></PD4>) }
+        { (post.id == 5) && (<PD5 data={post} ></PD5>) }
+        { (post.id == 6) && (<PD6 data={post} ></PD6>) }
 
-        <div className="PPCont">
+        {/* <div className="PPCont">
           <div className="PPImgTextCont">
             <div
               className="PPImg"
@@ -133,7 +123,7 @@ const PostPage = (data) => {
                 ))}
             </div>
           </div>
-        </div> 
+        </div>  */}
       </motion.div>
       <Link to={`/post/${prev}`}>
         <div className="PrevPost">

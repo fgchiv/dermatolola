@@ -32,27 +32,30 @@ const PDRutina = (data) => {
   console.log("PDR", data);
   const post = data.data;
   return (
-    <div className="PPCont" style={{ width: "640px" }}>
-      <div className="PPImgTextCont">
+    <div className="PPCont" style={{ width: "785px" }}>
+      <div className="PPImgTextCont" style={{ gap: '64px'}} >
         <div
           className="PPImg"
           style={{
+            width: "320px",
             background: `url(${post.img}) center / cover, lightgray 50% `,
-            width: "256px",
           }}
         ></div>
         <div className="PPTextCont">
           <div className="PPTitle">{post.title} </div>
-          <div className="PPText" style={{ width: "319px" }}>
-            La piel tiene muchas funciones, entre ellas, ser una <span className="PPTextRColor" >barrera
-            cutánea</span>. Para cuidarla, es fundamental comenzar por una <span className="PPTextRColor" >rutina
-            básica</span>. Esto incluye una limpieza (acá dependerá si es sensible, una
-            espuma o leche de limpieza, y si tiene tendencia a ser grasa, un
-            gel). Luego, colocar una crema hidratante. Los activos van a
-            depender del tipo de piel en general, el ácido hialurónico es una
-            buena opción. Realizar esto pasos a la mañana y a la noche,
-            acompañando con un <span className="PPTextRColor" >protector solar</span> durante el día es una excelente
-            forma de comenzar con tu rutina.
+          <div className="PPText" style={{ width: "365px" }}>
+            El sol es fundamental para el bienestar de las personas. Por eso,
+            tenemos que aprender a relacionarnos de forma saludable y
+            consciente. ¿Y por qué es importante incorporar estos hábitos? Ya
+            que el <span className="PPTextRColor" >daño solar</span> es acumulativo e irreversible y puede llevar al
+            cáncer de piel, además de empeorar la calidad de la piel al
+            predisponer a arrugas tempranas y manchas. <br /> <br />
+            <span className="PPTextRColorBold" >Recomendaciones:</span> utilizar
+            protector solar de amplio espectro (UVA y UVB) mayor a 30 y renovar
+            cada 2 horas. Esto solo no es suficiente, lo ideal es utilizar
+            sombreros, anteojos (ideal con filtro UV) y remeras manga larga o
+            UV. Si la sombra es más corta que tu altura, es importante buscar
+            refugio del sol. Lo ideal es evitar el sol de 10 a 16 horas.
           </div>
         </div>
       </div>
