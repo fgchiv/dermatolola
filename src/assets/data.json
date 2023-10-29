@@ -2,31 +2,35 @@
     "fotos" : [
         {
             "id" : 1,
-           "path" :  "path"
+            "img" :  "/src/assets/carrousel1.jpeg"
         },
         {
             "id" : 2,
-            "path" :  "path"
+            "img" :  "/src/assets/carrousel2.jpeg"
         },
         {
             "id" : 3,
-            "path" :  "path"
+            "img" :  "/src/assets/carrousel3.jpeg"
         },
         {
             "id" : 4,
-            "path" :  "path"
+            "img" :  "/src/assets/carrousel4.jpeg"
         },
         {
             "id" : 5,
-            "path" :  "path"
+            "img" :  "/src/assets/carrousel5.jpeg"
         },
         {
             "id" : 6,
-            "path" :  "path"
+            "img" :  "/src/assets/carrousel6.jpeg"
         },
         {
             "id" : 7,
-            "path" :  "path"
+            "img" :  "/src/assets/carrousel7.jpeg"
+        },
+        {
+            "id" : 8,
+            "img" :  "/src/assets/carrousel8.jpeg"
         }
     ],
     "pasosConsulta" : [
@@ -51,55 +55,73 @@
             "id" : 1,
             "title" : "Consulta presencial",
             "text" : "Abordaje de la piel, pelo y uñas en forma integral. En forma presencial, también podemos realizar control de lunares.",
-            "img" : "/src/assets/SO1.jpeg"
+            "img" : "/src/assets/SO1.jpeg",
+            "width" : "329px",
+            "contHeight" : "265px"
         },
         {
             "id" : 2,
             "title" : "Consulta virtual",
             "text" : "Ideal para realizar una consulta de seguimiento o si estás lejos. Si bien esta modalidad es muy útil, tiene ciertas limitaciones a la hora de realizar la consulta.",
-            "img" : "/src/assets/SO2.jpeg"
+            "img" : "/src/assets/SO2.jpeg",
+            "width" : "329px",
+            "contHeight" : "290px"
         },
         {
             "id" : 3,
             "title" : "Peeling",
             "text" : "A través de distintos ácidos, es posible tratar manchas, cicatrices, lesiones de acné, rosácea, arrugas finas y estimular la producción de colágeno y elastina.",
-            "img" : "/src/assets/SO3.jpeg"
+            "img" : "/src/assets/SO3.jpeg",
+            "width" : "365px",
+            "contHeight" : "282px"
         },
         {
             "id" : 4,
             "title" : "Punta de diamante",
             "text" : "Se trata de una herramienta de exfoliación suave, indolora, que funciona muy bien como paso previo al peeling ya que elimina la última capa de la piel ”las células muertas”.",
-            "img" : "/src/assets/SO4.jpeg"
+            "img" : "/src/assets/SO4.jpeg",
+            "width" : "311px",
+            "contHeight" : "315px"
         },
         {
             "id" : 5,
             "title" : "Plasma rico en plaquetas",
             "text" : "Se obtiene plasma al centrifugar la sangre con el objetivo de estimular factores de crecimiento para síntesis de colágeno y la regeneración capilar. Se puede utilizar a nivel facial y en cuero cabelludo.",
-            "img" : "/src/assets/SO5.png"
+            "img" : "/src/assets/SO5.png",
+            "width" : "329px",
+            "contHeight" : "314px"
         },
         {
             "id" : 6,
             "title" : "Dermapen",
             "text" : "A través de pequeñas agujas se estimula la producción de colágeno que genera una mejoría en la textura de la piel. También se utiliza en combinación con distintos productos ya que potencia su acción (plasma rico en plaquetas, ácido hialurónico, vitamina C).",
-            "img" : "/src/assets/SO6.jpeg"
+            "img" : "/src/assets/SO6.jpeg",
+            "width" : "365px",
+            "contHeight" : "332px"
         },
         {
             "id" : 7,
             "title" : "Mesoterapia capilar",
             "text" : "Procedimiento donde se realizan microinyecciones capilar con diferentes activos para estimular el crecimiento del pelo.",
-            "img" : "/src/assets/SO7.png"
+            "img" : "/src/assets/SO7.png",
+            "width" : "344px",
+            "contHeight" : "258px"
         },
         {
             "id" : 8,
             "title" : "Botox",
             "text" : "Se utiliza toxina botulínica para relajar, en forma temporal, los músculos que producen arrugas en la zona de la frente, entrecejo y alrededor de los ojos.",
-            "img" : "/src/assets/SO8.png"
+            "img" : "/src/assets/SO8.png",
+            "width" : "329px",
+            "contHeight" : "299px"
         },
         {
             "id" : 9,
             "title" : "Electrocoagulación",
             "text" : "Se destruyen con calor distintas lesiones benignas que pueden aparecer en la piel, como queratosis seborreicas o acrocordones -mal llamadas “verruguitas”-.",
-            "img" : "/src/assets/SO9.png"
+            "img" : "/src/assets/SO9.png",
+            "width" : "329px",
+            "contHeight" : "305px"
         }
     ],
     "posts" : [
@@ -137,7 +159,7 @@
         },
         {
             "id" : 2,
-            "title" : "Relación saludable con el Sol",
+            "title" : "Relación saludable con el sol",
             "img" : "/src/assets/post2.jpeg",
             "text" : "El sol es fundamental para el bienestar de las personas. Por eso, tenemos que aprender a relacionarnos de forma saludable y consciente. ¿Y por qué es importante incorporar estos hábitos? Ya que el daño solar es acumulativo e irreversible y puede llevar al cáncer de piel, además de empeorar la calidad de la piel al predisponer a arrugas tempranas y manchas. \n \nRecomendaciones: utilizar protector solar de amplio espectro (UVA y UVB) mayor a 30 y renovar cada 2 horas. Esto solo no es suficiente, lo ideal es utilizar sombreros, anteojos (ideal con filtro UV) y remeras manga larga o UV. Si la sombra es más corta que tu altura, es importante buscar refugio del sol. Lo ideal es evitar el sol de 10 a 16 horas.",
             "servicios" : [

@@ -49,7 +49,7 @@ const AboutPage = () => {
             el primer consultorio para pacientes trans y personas no binarias
           </span>
           . Realicé la diplomatura de oncología dermatológica y de estética y
-          actualmente, la de enfermedades auto inflamatorias.{" "}
+          actualmente, la de enfermedades autoinflamatorias.{" "}
         </div>
       </div>
       <div className="APImg1"></div>
@@ -144,9 +144,26 @@ const AboutPage = () => {
             representatividad en la formación médica. En conjunto con la
             creación del consultorio gratuito dermatológico para la comunidad
             LGTBIQ+, formamos el grupo de trabajo de la Sociedad Argentina de
-            Dermatología “Diversidad y piel”, a través del cual publicamos una
-            guía de atención respetuosa y logramos mayor inclusión a la hora de
-            indicar isotretinoína, una medicación muy utilizada para el acné.
+            Dermatología “Diversidad y piel”, a través del cual publicamos una{" "}
+            <a
+              style={{
+                fontWeight: "700",
+                color: "var(--gris-claro-aaa-sobre-blanco, #595959)",
+                textDecoration: "underline",
+              }}
+              href="https://sad.org.ar/wp-content/uploads/2022/12/Guia-para-una-atencion-respetuosa-de-la-diversidad-de-genero-de-las-personas-adaptada-a-la-consulta-dermatologica.docx.pdf"
+            >
+              guía de atención respetuosa
+            </a>{" "}
+            y logramos mayor inclusión a la hora de indicar{" "}
+            <a  style={{
+                fontWeight: "700",
+                color: "var(--gris-claro-aaa-sobre-blanco, #595959)",
+                textDecoration: "underline",
+              }} href="https://www.boletinoficial.gob.ar/detalleAviso/primera/291566/20230804?busqueda=2">
+              isotretinoína
+            </a>
+            , una medicación muy utilizada para el acné.
           </div>
         </div>
       </div>

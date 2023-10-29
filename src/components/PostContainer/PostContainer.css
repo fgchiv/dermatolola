@@ -27,8 +27,7 @@
 
 .PContainerCards{
     display: flex;
-    width: 1120px;
     align-items: flex-start;
     gap: 32px;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
